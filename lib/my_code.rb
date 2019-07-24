@@ -10,8 +10,7 @@ end
 def reduce (array)
   value =0 
  array.each do |number|
-  # binding.pry
- yield(value, number)
+ yield(value,number)
   end
   return value 
 end
